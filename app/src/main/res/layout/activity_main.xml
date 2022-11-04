@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/InsertButton"
+        android:text="@string/insert"
+        app:strokeColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:text="Insert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/InsertButton"
+        android:text="@string/delete"
+        app:strokeColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:text="Insert"
+        />
+
+    <Button
+        android:id="@+id/button_id3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/InsertButton"
+        android:text="@string/update"
+        app:strokeColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:text="Insert"
+        />
+
+</LinearLayout>

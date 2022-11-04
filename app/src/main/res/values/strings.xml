@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KONDAWMS</string>
+    <string name="hello_world">Hello World</string>
+    <string name="Insert" />
+    <string name="InsertButton">Insert</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="submit">Submit</string>
+    <string name="scan_bin_location">Scan bin location</string>
+    <string name="scan_item_barcode">Scan item barcode</string>
+    <string name="insert_back">Back</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/item_code_input"
+        android:layout_width="338dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="561dp"
+        android:autofillHints=""
+        android:gravity="center_vertical"
+        android:hint="@string/scan_item_barcode"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingTop="24dp"
+        android:paddingEnd="16dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/bin_location_input"
+        android:layout_width="338dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="479dp"
+        android:autofillHints=""
+        android:gravity="center_vertical"
+        android:hint="@string/scan_bin_location"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingTop="24dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor,MissingConstraints" />
+
+    <Button
+        android:id="@+id/insert_back_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="355dp"
+        android:text="@string/insert_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_id3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="355dp"
+        android:contentDescription="@string/InsertButton"
+        android:gravity="center_horizontal"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:text="Insert" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
