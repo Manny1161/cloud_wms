@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context="wms.eurotech.kondawms.MainActivity">
 
     <Button
         android:id="@+id/button_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:contentDescription="@string/InsertButton"
         android:text="@string/insert"
         app:strokeColor="#000000"
@@ -25,8 +25,8 @@
 
     <Button
         android:id="@+id/button_id2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:contentDescription="@string/InsertButton"
         android:text="@string/delete"
         app:strokeColor="#000000"
@@ -36,13 +36,34 @@
 
     <Button
         android:id="@+id/button_id3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
         android:contentDescription="@string/InsertButton"
         android:text="@string/update"
         app:strokeColor="#000000"
         tools:ignore="MissingConstraints"
         tools:text="Insert"
         />
+
+    <!--Button
+        android:id="@+id/button_id4"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/InsertButton"
+        android:text="@string/lookup"
+        app:strokeColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:text="Insert"
+        /-->
+    <!--Button
+        android:id="@+id/button_id4"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/InsertButton"
+        android:text="@string/cycle"
+        app:strokeColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:text="Insert"
+        /-->
 
 </LinearLayout>
